@@ -1,0 +1,7 @@
+repeat task.wait() until game:IsLoaded()
+local PlaceId = game.PlaceId
+if PlaceId == 78637005952936 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/KUYKUBZ/Script/refs/heads/main/Fromnew.lua"))()
+else
+    game.Players.localPlayer:Kick("เห็นนะๆรันผิดแมพป่าว")
+end
